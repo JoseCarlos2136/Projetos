@@ -1,0 +1,361 @@
+*{
+	font-family:Arial,Verdana,Sans-Serif;
+	color: #66544;
+	
+}
+
+.topo{
+	margin: 0 auto 0 auto; 
+	width: 900px;
+	height: 80px;
+	border: 1px solid #000;	
+	border-radius: 5px 5px 5px 5px;
+
+}
+.img_logo{
+	width: 69px;
+	height: 69px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+h2{
+	display:block-inline;
+	margin-top: -50px;
+	width:140px;
+	margin-left:80px;
+	font-size: 25px;
+}
+.bemVindo{
+	position: absolute;
+	display:block-inline;
+	margin-top: -40px;
+	margin-left:250px;
+	font-size: 13px;
+}
+#mes_ano{
+	position: relative;
+	margin-top: -50px;
+	margin-left: 480px;
+	width: 340px;
+	height: 35px;
+	border:1px solid #fff;
+}
+.Pdata{
+	margin-top: -23px;
+	margin-left: -35px;
+	font-size: 13px;
+}
+#hora{
+	border: 1px solid #fff;
+	margin-top: -30px;
+	margin-left: 285px;
+	width: 50px;
+	height: 20px;
+	font-size: 13px;
+}
+.img_relogio{
+	margin-top: 4px;
+	margin-left: 208px;
+	}
+	.img_calendar{
+		margin-left: 22px;
+	}
+.logout{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	margin-left: 345px;
+	margin-top: -43px;
+	border: 1px  solid #fff;
+	
+}
+.sair{
+	display: block;
+	text-decoration: none;
+	padding-left: 14px;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.sair:hover{
+	text-decoration: underline;
+}
+#menuPrincipal{
+	margin: auto;
+    width: 50%;
+	margin-top: 10px;
+	width: 900px;
+	height: 80px;
+	border: 1px solid #000;	
+	border-radius: 5px 5px 5px 5px;
+}
+ul{
+	display: block;
+	border: 1px solid #DCDCDC;	
+	margin-top: 18px;
+	text-align: center;
+	border-top: 3px solid #DCDCDC;
+
+	
+}
+ul li {
+	display: inline-block; /* centraliza na horizontal */
+	border: 1px solid #fff;	
+	padding: 10px 70px 5px 0;
+	margin:-3px -1px -1px;
+	padding-left: 30px;
+	border-top: 3px solid #DCDCDC;
+	border-bottom: 1px solid #DCDCDC;
+	text-align: center;	
+	color: #000;
+}
+.liCrianca{
+	color:#000;
+	border-top-color: #DCDCDC;
+}
+.liPesquisa{
+	color:#000066;
+	border-top-color: #000066;
+}
+.liCrianca:hover{
+	color:#006400;
+	border-top-color: #006400;
+}
+.liPesquisa:hover{
+	color:#000066;
+	border-top-color: #000066;
+}
+.liListaCompleta:hover{
+	color:#B8860B;
+	border-top-color: #B8860B;
+}
+.liIndicador:hover{
+	color:#808000;
+	border-top-color: #808000;
+}
+#divPesquisa{
+	margin: auto;
+    width: 50%;
+	margin-top:10px;
+	width: 900px;
+	height: 700px;
+	border: 1px solid #000;	
+	border-radius: 5px 5px 5px 5px;
+	
+}
+#resultado{
+	margin-top: 10px;
+	height: 35px;
+
+}
+.resultado{
+	margin: 5px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+.btn_pesquisar{
+	margin-top: 15px;
+	width: 140px;
+	height:35px;
+	margin-left:430px;
+	background-color: #4169E1;
+	color: #fff;
+	border:1px solid #4169E1;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+}
+.btn_pesquisar:active{
+	background-color: #F5F5F5;
+	color:#4169E1;
+}
+
+p{
+	text-align: center;
+}
+#tabelaPesquisa{
+	margin-top: -625px;
+	height:382px;
+	width:900px;
+	border-top: 2px solid #808080;
+	border-bottom: 2px solid #808080; 
+	background-color:#f5f5f0;
+	overflow: auto;
+}
+.tbPesquisa{
+	margin-top: 2px;
+	width: 883px;
+	border-spacing: 0px;
+}
+th{
+	text-transform: uppercase;
+}
+
+th,td{
+	padding:4px 5px 10px 3px;
+	/*padding: 4px 10px 4px 4px;  */
+	border-spacing: 0px;
+	font-size: 90%;
+	margin: 0px;
+}
+th,td{
+	text-align: center;
+	font-weight: normal;
+	background-color: #e0e9f0;
+	border-top: 1px solid #f1f8fe;
+	border-bottom: 1px solid #cbd2d8;
+	border-right: 1px solid #cbd2d8;
+}
+tr.head th{
+	color: #fff;
+	background-color: #90b4d6;
+	border-bottom: 2px solid #547ca0;
+	border-right: 1px solid #749abe;
+	border-top: 1px solid #90b4d6;
+	text-align: center;
+	text-shadow: -1px -1px 1px #666;
+	letter-spacing: 0.01em;
+}
+td{text-shadow: 1px 1px 1px #fff;}
+tr.even td{
+	background-color: #e8eff5;
+}
+#Indicador_Geral{
+	position:relative;
+	margin-top: -250px;
+	margin-left:0px;
+	width: 900px;
+	height: 173px;
+	border-top:2px solid #808080;
+}
+#Indicador_Idade{
+	position:relative;
+	margin-top: -228px;
+	margin-left:0px;
+	width: 900px;
+	height: 173px;
+	border-top:2px solid #808080;
+	background-color: #fff;
+	overflow: auto;
+
+}
+.tbindicadoresIdade{
+	margin-top: 0px;
+	width: 100px;
+	border-spacing:0px;
+}
+.th{
+	padding: 5px 15px 0px 20px; 
+	border-spacing: 0px;
+	font-size: 90%;
+	margin: 0px;
+	color: #fff;
+	background-color: #90b4d6;
+	border-bottom: 2px solid #547ca0;
+	border-right: 1px solid #749abe;
+	border-top: 1px solid #90b4d6;
+	text-align: center;
+	text-shadow: -1px -1px 1px #666;
+	letter-spacing: 0.01em;
+}
+	.tbIndicadoGeral{
+	margin: auto;
+    width: 50%;
+	margin-left: 240px;
+	border-spacing:0px;
+	}
+	.tdgeral{
+		margin: 0px;
+		padding: 5px 50px 0px 30px;
+		text-align: center;
+		font-size: 90%;
+	}
+	.thgeral{
+	padding: 5px 15px 11px 20px; 
+	border-spacing: 0px;
+	font-size: 90%;
+	margin: 0px;
+	color: #fff;
+	background-color: #90b4d6;
+	border-bottom: 2px solid #547ca0;
+	border-right: 1px solid #749abe;
+	border-top: 1px solid #90b4d6;
+	text-align: center;
+	text-shadow: -1px -1px 1px #666;
+	letter-spacing: 0.01em;
+}
+.tbindicadorSexo{
+	margin: auto;
+    width: 50%;
+	margin-left:230px;
+	border-spacing:0px;
+}
+.tdSexo{
+	margin: 0px;
+	padding: 5px 50px 12px 30px;
+	text-align: center;
+	font-size: 90%;	
+}
+.thSexo{
+	padding: 5px 15px 11px 20px; 
+	border-spacing: 0px;
+	font-size: 90%;
+	margin: 0px;
+	color: #fff;
+	background-color: #90b4d6;
+	border-bottom: 2px solid #547ca0;
+	border-right: 1px solid #749abe;
+	border-top: 1px solid #90b4d6;
+	text-align: center;
+	text-shadow: -1px -1px 1px #666;
+	letter-spacing: 0.01em;
+}	
+
+.tudo{
+	float: left;
+}
+.voltar {
+	margin-top: 16px;
+	margin-left:-150px;
+	width:150px;
+	height:38px;
+	background-color: #4169E1;
+	border:1px solid #547ca0;
+}
+.voltar a{
+	display:inline-block;
+	margin-top:10px;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight:normal;
+	color: #fff;
+}
+.btnexcluir{
+	position:absolute;
+	display:inline-block;
+	margin-top: 400px;
+	margin-left:20px;
+	width:150px;
+	height:40px;
+	font-size: 15px;
+	background-color: #4169E1;
+	color:#fff;
+	border: 1px solid #547ca0;
+	cursor: pointer;
+}
+
+.filtro{
+	display:inline-block;
+	position: absolute;
+	margin-top:-720px;
+	margin-left:18%;
+	font-weight:bold;
+	font-size:15px;
+}
+.registroNaoEncontrado{
+	display:inline-block;
+	position:absolute;
+	margin-top:200px;
+	margin-left:-150px;
+	font-weight:bold;
+	letter-spacing:2px;
+}

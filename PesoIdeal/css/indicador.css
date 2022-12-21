@@ -1,0 +1,22 @@
+@import url("layout-indicador.css");
+li:hover,li.indicador{border-bottom: 6px solid #A0522D;color:#A0522D;}
+
+table{
+	width: 100%;
+	border-spacing: 18px 0px;
+	border:none;
+}
+.porcentagem{border-right: none;}
+tr{}
+.thleft{width: 10px;text-align: center;}
+th{
+	border:none;
+	text-align: center;
+	font-size: 17px;
+	height: 40px;
+	background-color: rgb(56,176,222);
+	border-right: 1px solid rgb(35,107,142);
+	color: rgb(35,107,142);
+}
+
+td{border: 1px solid #000;text-align: center;}

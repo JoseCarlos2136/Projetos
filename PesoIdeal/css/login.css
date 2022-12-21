@@ -1,0 +1,95 @@
+*{
+	font-family:Arial,Verdana,Sans-Serif;
+	color: #66544;
+	text-align: center;
+	font-size: 16px;
+}
+body,html{margin: 0;padding: 0; 	
+background: rgb(37,141,200);
+background: -moz-linear-gradient(45deg, rgba(37,141,200,1) 0%, rgba(37,141,200,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%);
+background: linear-gradient(45deg, rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=1 );
+}
+#caixa_login{
+	margin: 0 auto ;
+	margin-top: 10%;       
+	background-color: #fff;
+	border: 1px solid #fff;
+	width: 25%;
+	box-shadow: 0px 20px 20px 0px  rgba(0,0,0,0.5);
+}
+
+.img_logo{
+	margin-top: 25px;
+	width: 40%;
+}
+figcaption{ padding: 10px 0 10px 0px; font-size: 20px;}
+.divInput{margin-top: 5px;}
+span{
+	position: absolute;
+	margin-top: -20px;
+	margin-left: -45px;
+	display: inline-block;
+	background-color: #4169E1;
+	width:40px;
+	height: 39px;
+}	
+.login_img{
+	margin-top : 7px;
+	background-color: fff;
+}
+.inpunt_login{
+	width: 57%;
+	height: 38px;
+	border: 1px solid #D3D3D3;
+	text-align: left;
+	padding:0px 0px 0px 10px; 
+}
+.inpunt_senha{
+	width: 57%;
+	height: 38px;
+	border: 1px solid #D3D3D3;
+	text-align: left;
+	padding:0px 0px 0px 10px; 	
+}
+.btn_entrar{
+	margin-top: 10px;
+	width: 56%;
+	height:40px;
+	background-color: #4169E1;
+	color: #fff;
+	border:1px solid #4169E1;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+}
+.btn_entrar:active{
+	background-color: #F5F5F5;
+	color:#4169E1;
+}
+.link_nutri{
+	display: block;
+	margin-top: -10px;
+	padding: 20px;
+	text-decoration:none;
+	color: #4169E1;	
+}
+.link_nutri:hover{
+	text-decoration:underline;
+	color:#4169E1;
+}
+a{
+	text-decoration: none;
+	color: #4169E1;	
+}
+a:hover{
+	text-decoration: underline;
+	color:#4169E1;
+
+}
+.esqueci{
+	display: block;
+	margin-top:30px;
+}
+#footer{margin-top: 30px;}

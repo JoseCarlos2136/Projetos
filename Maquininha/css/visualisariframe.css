@@ -1,0 +1,83 @@
+/* Estilizando  a div tabela */
+#tabela{
+    position: fixed;
+    top:0px;
+    margin-left:-7px;
+    padding: 3px;
+    width:1000px;
+    height: 40px;
+    background-color: #006400;
+    z-index: 999;
+    border: 1px solid #006400;
+}
+
+/* Estilizando tabela  top*/
+.table{
+    width:990px;
+    margin: 2px;
+    border-collapse: collapse;
+}
+thead,th{
+   padding: 7px 10px 10px 10px
+}
+th{
+    
+    border-top: 1px solid #006400;
+    border-bottom: 1px solid #006400;
+    text-align:left;
+    font-family: arial, verdana ;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+.acao{
+    width:100px;
+}
+.table1{
+    margin:50px;
+    width:1000px;
+    margin-left: 0px;
+}
+tr,td{
+   padding: 7px 10px 10px 10px
+}
+.tdnome{
+    border-bottom: 1px solid #DCDCDC;
+    text-align:left;
+    font-family: arial, verdana ;
+    font-size: 12px;
+    width: 209px;
+    padding-left: 4px;
+}
+.tdmarca{
+    border-bottom: 1px solid #DCDCDC;
+    text-align:center;
+    font-family: arial, verdana ;
+    font-size: 12px;
+    width: 220px;
+}
+.tddata{
+    border-bottom: 1px solid #DCDCDC;
+    text-align:center;
+    font-family: arial, verdana ;
+    font-size: 12px;
+    width: 200px;
+    
+}
+.tdqtd{
+    border-bottom: 1px solid #DCDCDC;
+    text-align:center;
+    font-family: arial, verdana ;
+    font-size: 12px;
+    width: 120px;
+}
+.tdacao{
+    border-bottom:1px solid #DCDCDC;
+    font-family: arial, verdana ;
+    width:10px;
+    padding: 1px; 
+}
+.efeito:hover{
+    background-color: #C0C0C0;
+}
+

@@ -1,0 +1,281 @@
+
+/* Estilizando a div top*/
+ #mensagem_Error{
+    margin: -45px 0px;
+    padding-left: 30px;
+    width: 1070px;
+    height: 36px;
+    background-color: #DAA520;
+    border: 1px;
+    opacity: 2;
+ }
+ .pmensagem_error{
+    padding-top: 8px;
+    color:#800000;
+    font-weight: bold;
+ }
+  #mensagem_sucesso{
+    margin-top:-50px;
+    margin-left: 0px;
+    padding-left: 30px;
+    width:1070px;
+    height: 36px;
+    background-color: #006400	;
+    border:1px;
+    opacity: 2;
+ }
+ .psucesso{
+    padding-top: 8px;
+    color:#fff;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+ }
+#top{
+    position: absolute;
+    top: 0px;
+    margin:0px;
+    left: 0px;
+    width:100%;
+    height: 93px;
+    background-color: #DBDEE5;
+}
+/* estilizando a logo*/
+.logo{
+    float:left;
+    margin-top:-30px;
+    padding-left:30px;
+}
+/*Estilizando Midias Sociais e Email*/
+.mse{
+    float: right;
+    margin-top:35px;
+    margin-right:40px;
+    padding-right: 0px;
+    width: 25px;
+    height: 25px;
+}
+.mse:hover{
+    width: 40px;
+    height: 40px;
+}
+/* Estilizando a div middle*/
+#containnermiddle{
+    position: absolute;
+    margin-top:84px;
+    margin-left: -9px; 
+    width:100%;
+    height:790px;
+    border:1px solid #fff;
+    background-color:#2E8B57;
+    opacity: 0.6;
+}
+/*estilizando a div menu*/
+#menu{
+    width:1070px;
+    height:70px;
+    border:1px solid #fff;
+    margin:20px auto 20px auto;
+    background-color:#fff; 
+    
+}
+li {
+    display: inline;
+    padding-right: 45px;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 130%;
+    font-weight:bold;
+    letter-spacing: 0.30em;   
+}
+.Menu{
+    text-decoration: none;
+    color: #000;
+}
+
+.cadastro{
+    margin-top: -10px;
+    margin-left: 30px;
+    width: 175px;
+    border: 1px solid #32CD32;
+    
+    
+}
+.visualizar{
+    margin-top: -2px;
+    margin-left: 250px;
+    width: 190px;
+    border: 1px solid #0a4f43;
+    
+}
+.termo{
+    margin-top: -2px;
+    margin-left: 490px;
+    width: 490px;
+    border: 1px solid #0a4f43;  
+}
+
+li:hover{
+    color:#DBDEE5;
+}
+
+/*estilizando a div container2*/
+#container2{
+    margin-top:50px;
+    margin-left:300px;
+    width:1100px;
+    height:135px;
+    border:1px solid #000000;
+    margin:20px auto 20px auto;
+    background-color:#fff; 
+}
+/*estilizando a div solicitante*/
+#solicitante{
+    position: absolute;
+    margin-top:243px;
+    margin-left:393px;
+    width:1100px;
+    height:600px;
+    border:1px solid #000000;
+    border-top: 1px solid #fff;
+    background-color:#fff;
+
+}
+/*estilizando a div form*/
+#formNome{
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-bottom:1px solid #F2F2F2;
+    width: 500px;
+    height:41px;
+}
+#formMarca{
+    position:absolute;
+    margin-top: 70px;
+    margin-left: 70px;
+    border-bottom:1px solid #F2F2F2;
+    width: 500px;
+    height:41px;
+}
+#formData{
+    position:absolute;
+    margin-top:120px;
+    margin-left: 70px;
+    border-bottom:1px solid #F2F2F2; 
+    width: 500px;
+    height:41px;
+}
+#formQtd{
+    position:absolute;
+    margin-top:170px;
+    margin-left: 70px;
+    border-bottom:1px solid #F2F2F2;
+    width: 500px;
+    height:41px;
+}
+
+/*estilizando o insira os dados*/
+.inserir {
+    margin-top: 20px;
+    padding-left: 65px;
+    letter-spacing: 0.1em;
+    color: #0a4f43;
+    font-family: arial;
+    font-size: 23px;
+    
+}
+/*estilizandos as labels*/
+.dado{
+  font-family: arial;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+/* Estilizando os inputs*/
+
+.inputNome{
+    margin-left: 30px;
+    width: 300px;
+    height: 22px;
+    border:1px solid #000;
+    border-radius: 2px 2px 2px 2px;
+    
+}
+.inputMarca{
+    margin-left: 20px;
+    width: 300px;
+    height: 22px;
+    border:1px solid #000;
+    border-radius: 2px 2px 2px 2px;
+}
+.inputData{
+    margin-left: 35px;
+    width: 300px;
+    height: 25px;
+    border:1px solid #000;
+    border-radius: 2px 2px 2px 2px;
+}
+.inputQtd{
+    margin-left: 97px;
+    width: 300px;
+    height: 22px;
+    border:1px solid #0a4f43;
+    border-radius: 2px 2px 2px 2px;
+}
+.inputNome:focus{
+   background-color:#FFFF00; 
+}
+.inputMarca:focus{
+   background-color:#FFFF00; 
+}
+.inputData:focus{
+   background-color:#FFFF00; 
+}
+.inputQtd:focus{
+   background-color:#FFFF00; 
+}
+/* Estilizando a div botao cadastrar*/
+#botaoSub{
+    position:absolute;
+    margin-top:220px;
+    margin-left: 70px;
+    border:  1px solid #fff;
+    width: 500px;
+    height:40px;
+}
+/* Estilizando o botaoCadastro*/
+.subCadastrar{
+    float: right;
+    width: 120px;
+    height: 37px;
+    border:  1px solid #0B6121;
+    background-color: #0B6121;
+    color: #fff;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    cursor: pointer;
+}
+.subCadastrar:active{
+    background-color: #f2f2f2;
+    color:#0a4f43;
+    font-weight: bold;
+    font-size: 16px;
+}
+.subCadastrar:hover{
+   opacity: 0.90;
+}
+/* Estilizando a div bottom*/
+
+#bottom{
+    position:absolute;
+    margin-top: 46%;
+    left: 1px;
+    width:100%;
+    height: 70px;
+    background-color: #0a4f43;  
+}
+.ptodos{
+    width: 250px;
+    margin:25px auto 25px auto;
+    color:#fff;
+    
+}

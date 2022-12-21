@@ -1,0 +1,144 @@
+
+/* Estilizando a div top*/
+
+#top{
+    position: absolute;
+    top: 0px;
+    margin:0px;
+    left: 0px;
+    width:100%;
+    height: 93px;
+    background-color: #DBDEE5;
+}
+/* estilizando a logo*/
+.logo{
+    float:left;
+    margin-top:-30px;
+    padding-left:30px;
+}
+/*Estilizando Midias Sociais e Email*/
+.mse{
+    float: right;
+    margin-top:25px;
+    margin-right:40px;
+    padding-right: 0px;
+    width: 36px;
+    height: 36px;
+}
+.mse:hover{
+    width: 40px;
+    height: 40px;
+}
+/* Estilizando a div middle*/
+#containnermiddle{
+    position: absolute;
+    margin-top:84px;
+    margin-left: -9px; 
+    width:100%;
+    height:790px;
+    border:1px solid #fff;
+    background-color:#2E8B57;
+    opacity: 0.6;
+}
+/*estilizando a div menu*/
+#menu{
+    width:1070px;
+    height:70px;
+    border:1px solid #fff;
+    margin:20px auto 20px auto;
+    background-color:#fff; 
+    
+}
+li {
+    display: inline;
+    padding-right: 45px;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 130%;
+    font-weight:bold;
+    letter-spacing: 0.30em;   
+}
+.Menu{
+    text-decoration: none;
+    color: #000;
+}
+
+.cadastro{
+    margin-top: -10px;
+    margin-left: 30px;
+    width: 175px;
+    border: 1px solid #0a4f43;
+    
+    
+}
+.visualizar{
+    margin-top: -2px;
+    margin-left: 250px;
+    width: 190px;
+    border: 1px solid #32CD32;
+    
+}
+.termo{
+    margin-top: -2px;
+    margin-left: 490px;
+    width: 490px;
+    border: 1px solid #0a4f43;  
+}
+
+li:hover{
+    color:#DBDEE5;
+}
+
+/*estilizando a div container2*/
+#container2{
+    margin-top:50px;
+    margin-left:300px;
+    width:1100px;
+    height:135px;
+    border:1px solid #000000;
+    margin:20px auto 20px auto;
+    background-color:#fff; 
+}
+/*estilizando a div visuatable*/
+#visutable{
+    position: absolute;
+    margin-top:243px;
+    margin-left:393px;
+    width:1100px;
+    height:600px;
+    border:1px solid #000000;
+    border-top: 1px solid #fff;
+    background-color:#fff;
+
+}
+#divframe{
+    margin:50px auto 50px auto;
+    width:1000px;
+    height:400px;
+    border:2px solid #006400;
+}
+/*estilizando o insira os dados*/
+.inserir {
+    margin-top: 20px;
+    padding-left: 65px;
+    letter-spacing: 0.1em;
+    color: #0a4f43;
+    font-family: arial;
+    font-size: 23px; 
+}
+
+/* Estilizando a div bottom*/
+
+#bottom{
+    position:absolute;
+    margin-top: 46%;
+    left: 1px;
+    width:100%;
+    height: 70px;
+    background-color: #0a4f43;  
+}
+.ptodos{
+    width: 250px;
+    margin:25px auto 25px auto;
+    color:#fff;   
+}

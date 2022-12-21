@@ -1,0 +1,238 @@
+*{
+	font-family:Arial,Verdana,Sans-Serif;
+	color: #66544;
+	
+}
+
+.topo{
+	margin: 0 auto 0 auto; 
+	width: 900px;
+	height: 80px;
+	border: 1px solid #000;	
+	border-radius: 5px 5px 5px 5px;
+
+}
+h2{
+	display:block-inline;
+	margin-top: -50px;
+	width:140px;
+	margin-left:80px;
+	font-size: 25px;
+}
+.bemVindo{
+	position: absolute;
+	display:block-inline;
+	margin-top: -40px;
+	margin-left:250px;
+	font-size: 13px;
+}
+.img_logo{
+	width: 69px;
+	height: 69px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#mes_ano{
+	position: relative;
+	margin-top: -50px;
+	margin-left: 480px;
+	width: 340px;
+	height: 35px;
+	border:1px solid #fff;
+}
+.Pdata{
+	margin-top: -23px;
+	margin-left: -35px;
+	font-size: 13px;
+}
+#hora{
+	border: 1px solid #fff;
+	margin-top: -30px;
+	margin-left: 285px;
+	width: 50px;
+	height: 20px;
+	font-size: 13px;
+}
+.img_relogio{
+	margin-top: 4px;
+	margin-left: 208px;
+	}
+	.img_calendar{
+		margin-left: 22px;
+	}
+.logout{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	margin-left: 345px;
+	margin-top: -43px;
+	border: 1px  solid #fff;
+	
+}
+.sair{
+	display: block;
+	text-decoration: none;
+	padding-left: 14px;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.sair:hover{
+	text-decoration: underline;
+}
+#menuPrincipal{
+	margin: auto;
+    width: 50%;
+	margin-top: 10px;
+	width: 900px;
+	height: 80px;
+	border: 1px solid #000;	
+	border-radius: 5px 5px 5px 5px;
+}
+ul{
+	display: block;
+	border: 1px solid #DCDCDC;	
+	margin-top: 18px;
+	text-align: center;
+	border-top: 3px solid #DCDCDC;
+
+	
+}
+ul li {
+	display: inline-block; /* centraliza na horizontal */
+	border: 1px solid #fff;	
+	padding: 10px 70px 5px 0;
+	margin:-3px -1px -1px;
+	padding-left: 30px;
+	border-top: 3px solid #DCDCDC;
+	border-bottom: 1px solid #DCDCDC;
+	text-align: center;	
+	color: #000;
+}
+.liCrianca{
+	color:#000;
+	border-top-color: #DCDCDC;
+}
+.liPesquisa{
+	color:#000066;
+	border-top-color: #000066;
+}
+.liCrianca:hover{
+	color:#006400;
+	border-top-color: #006400;
+}
+.liPesquisa:hover{
+	color:#000066;
+	border-top-color: #000066;
+}
+.liListaCompleta:hover{
+	color:#B8860B;
+	border-top-color: #B8860B;
+}
+.liIndicador:hover{
+	color:#808000;
+	border-top-color: #808000;
+}
+#divForm{
+	margin: auto;
+    width: 50%;
+	margin-top: 10px;
+	width: 900px;
+	height: 390px;
+	border: 1px solid #000;	
+	border-radius: 5px 5px 5px 5px;
+
+}
+/* Estilizando o Formulário  */
+
+#PE_nome{
+	margin-top:50px;
+	margin-left: 170px;
+	width: 500px;
+	height: 35px;
+	background-color: #fff;
+}
+#PE_data_nasc{
+	margin-top: 5px;
+	margin-left: 170px;
+	width: 500px;
+	height: 35px;
+	background-color: #fff;
+}
+
+#PE_sexo{
+	margin-top: 5px;
+	margin-left: 170px;
+	width: 500px;
+	height: 35px;
+	background-color: #fff;
+}
+#PE_idade{
+	margin-top: 5px;
+	margin-left: 170px;
+	width: 500px;
+	height: 35px;
+	background-color: #fff;
+}
+#PE_status{
+	margin-top: 5px;
+	margin-left: 170px;
+	width: 500px;
+	height: 35px;
+	background-color: #fff;
+}
+#PE_radios{
+	margin-top:0px;
+	margin-left: 130px;
+	width: 450px;
+	height: 25px;
+	background-color: #fff;
+}
+.span_form{
+	position:absolute;
+	background-color: #fff;
+	display: block;
+	margin-left: -160px;
+	width: 150px;
+	height: 35px;
+}
+.inpunt_form{
+	margin-top:5px;
+	margin-left:0px;
+	width: 400px;
+	height: 25px;
+	padding:0px;
+	border: 1px solid #D3D3D3;
+	text-align: left;
+	padding:0px 0px 0px 10px; 
+}
+.p_form{
+	margin:0px auto;
+	color:#000;
+	text-align: center;
+	margin-top: 10px;
+	float: right;
+	letter-spacing: 0.1em;
+}
+.radio{
+	
+}
+.btn_pesquisar{
+	margin-top: 15px;
+	width: 140px;
+	height:35px;
+	margin-left:430px;
+	background-color: #4169E1;
+	color: #fff;
+	border:1px solid #4169E1;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+}
+.btn_pesquisar:active{
+	background-color: #F5F5F5;
+	color:#4169E1;
+}
+
+p{
+	text-align: center;
+}
